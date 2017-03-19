@@ -23,7 +23,7 @@ There are three Generic types of Popups that can be used:
 3. TextField With Two Buttons Popup (Usually used In Cases like Forgot Password or asking some quick information from user)
 
 **Custom Popup**
-    ```swift
+```swift
     let popup = MWAPopup.createPopup(aPopupType: .SingleButton,
                                         titleString: "Message",
                                         messageString: "This is a message for you.",
@@ -32,7 +32,8 @@ There are three Generic types of Popups that can be used:
     popup?.onFirstButtonTapped = { () in 
         print("OK Tapped") 
     }
-    
+```
+
 **Custom Popup With Images**
 
     let popup = MWAPopup.createPopupWithImages(aPopupType: .SingleButton,
