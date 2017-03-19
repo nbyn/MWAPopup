@@ -1,4 +1,4 @@
-MWAPopup
+# MWAPopup
 
 A Custom Popup For iOS written in Swift 3
 
@@ -20,4 +20,8 @@ Just Drag & Drop the folder named 'MWAPopupSource' in your project and you are r
 
 Single Button Popup
 
-    let popup = MWAPopup.createPopup(aPopupType: .SingleButton, titleString: "Message", messageString: "This is a message for you.", buttonNames: ["OK"]) popup?.show(vc: self) popup?.onFirstButtonTapped = { () in print("OK Tapped") }
+    let popup = MWAPopup.createPopup(aPopupType: .SingleButton, titleString: "Message", messageString: "This is a message for you.", buttonNames: ["OK"]) 
+    popup?.show(vc: self)
+    popup?.onFirstButtonTapped = { () in 
+        print("OK Tapped") 
+    }
