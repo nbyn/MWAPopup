@@ -8,7 +8,7 @@ MWAPopup is an iOS utility for developers to easily integrate the Popup UI in th
 
 ## Preview
 
-![](http://i.imgur.com/BrAue9O.gif)
+![](http://i.imgur.com/tVvodwt.gif)
 
 ## Installation
 
