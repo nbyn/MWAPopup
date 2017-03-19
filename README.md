@@ -6,7 +6,9 @@ MWAPopup is an iOS utility for developers to easily integrate the Popup UI in th
 
 
 
-# Screenshots
+# Preview
+
+
 
 # Installation
 
@@ -83,6 +85,6 @@ Following properties can also be modified accordingly:
     var textFieldPlaceholderColor:UIColor?
     
     
-## Author
+# Author
 
 Malik Wahaj Ahmed
