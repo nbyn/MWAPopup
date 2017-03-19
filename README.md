@@ -6,11 +6,11 @@ MWAPopup is an iOS utility for developers to easily integrate the Popup UI in th
 
 
 
-# Preview
+## Preview
 
 
 
-# Installation
+## Installation
 
 Just Drag & Drop the folder named **'MWAPopupSource'** in your project and you are ready to go.
 
@@ -51,7 +51,7 @@ Popup Type: .SingleButton OR .TwoButton OR .TextFieldTwoButtons
 Button Titles: Use String Array for UIButton Titles
 Button Images: Use UIImage Array for UButtons
 
-** Properties **
+**Properties**
 
 Following properties can also be modified accordingly:
 ```swift
