@@ -12,7 +12,7 @@ MWAPopup is an iOS utility for developers to easily integrate the Popup UI in th
 
 # Installation
 
-Just Drag & Drop the folder named 'MWAPopupSource' in your project and you are ready to go.
+Just Drag & Drop the folder named **'MWAPopupSource'** in your project and you are ready to go.
 
 # Usage
 
@@ -22,8 +22,8 @@ There are three Generic types of Popups that can be used:
 2. Two Button Popup (Usually used for asking permissions, Logout etc)
 3. TextField With Two Buttons Popup (Usually used In Cases like Forgot Password or asking some quick information from user)
 
-Custom Popup
-
+**Custom Popup**
+    ```swift
     let popup = MWAPopup.createPopup(aPopupType: .SingleButton,
                                         titleString: "Message",
                                         messageString: "This is a message for you.",
@@ -33,7 +33,7 @@ Custom Popup
         print("OK Tapped") 
     }
     
-Custom Popup With Images
+**Custom Popup With Images**
 
     let popup = MWAPopup.createPopupWithImages(aPopupType: .SingleButton,
                                                    titleString: "Message",
