@@ -22,6 +22,7 @@ There are three Generic types of Popups that can be used:
 2. Two Button Popup (Usually used for asking permissions, Logout etc)
 3. TextField With Two Buttons Popup (Usually used In Cases like Forgot Password or asking some quick information from user)
 
+
 **Custom Popup**
 ```swift
 let popup = MWAPopup.createPopup(aPopupType: .SingleButton,
@@ -33,6 +34,12 @@ popup?.onFirstButtonTapped = { () in
     print("OK Tapped") 
 }
 ```
+
+* **aPopupTypee**   : .SingleButton OR .TwoButton OR .TextFieldTwoButtons
+* **titleString**   : Heading label text
+* **messageString** : Message label text
+* **buttonNames**   : Use String Array for UIButton Titles (Not more than 2)
+
 
 **Custom Popup With Images**
 ```swift
@@ -47,9 +54,8 @@ popup?.onFirstButtonTapped = { () in
 }
 ```
 
-Popup Type: .SingleButton OR .TwoButton OR .TextFieldTwoButtons
-Button Titles: Use String Array for UIButton Titles
-Button Images: Use UIImage Array for UButtons
+* **popupImage**  : UIImage For Popup 
+* **buttonImages**: Use UIImage Array for UButtons (Not more than 2)
 
 **Properties**
 
